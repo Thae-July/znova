@@ -1,0 +1,118 @@
+body{
+    /* background-color:#fefbe5; */
+    background-color: #eec600;
+    /* background-image: linear-gradient(to right, #052B52,#0C4789); */
+    color: #ffffff;
+}
+header{
+    background-color: white;
+    padding: 15px;
+    height: 100px;
+}
+
+/* .carousel-bg{
+    background-image: url(images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+h3{
+    line-height: 50px;
+}
+ul{
+    line-height: 25px;
+}
+.carousel-height{
+    height: 400px;
+}
+.img1{
+    width: 200px;
+    height: 50px;
+}
+.img2{
+    width: 80px;
+    height: 80px;
+}
+.img3{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 300px;
+    margin-left: 70%;
+}
+@media (min-width:1px) {
+    h3 {
+        font-size: 14px;        
+        line-height: 20px;
+        text-align: justify;
+    }
+    li{
+        font-size: 13px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    .img3{
+        display: none;
+    }
+}
+@media (min-width:544px) {
+    h3 {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    li{
+        font-size: 13px;
+        line-height: 22px;
+        text-align: justify;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    .img3{
+        display: none;
+    }
+}
+@media (min-width:768px) {
+    h3 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    li{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    .img3{
+        display: block;
+    }
+}
+@media (min-width:992px) {
+    h3 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    li{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    header{
+        display: flex;
+        justify-content: start;
+    }
+}
+footer{
+    font-size: 11px;
+    text-align: center;
+    padding-top: 7px;
+    color: rgb(255, 255, 255);
+}
